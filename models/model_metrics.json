@@ -1,0 +1,104 @@
+{
+  "best_model": "Random Forest",
+  "dataset_rows": 800,
+  "features": [
+    "Engine rpm",
+    "Lub oil pressure",
+    "Fuel pressure",
+    "Coolant pressure",
+    "lub oil temp",
+    "Coolant temp"
+  ],
+  "results": [
+    {
+      "Model": "Random Forest",
+      "Accuracy": 0.8125,
+      "Precision": 0.7848,
+      "Recall": 0.8267,
+      "F1-Score": 0.8052,
+      "ROC-AUC": 0.8922,
+      "Confusion Matrix": [
+        [
+          68,
+          17
+        ],
+        [
+          13,
+          62
+        ]
+      ]
+    },
+    {
+      "Model": "Gradient Boosting",
+      "Accuracy": 0.8063,
+      "Precision": 0.7895,
+      "Recall": 0.8,
+      "F1-Score": 0.7947,
+      "ROC-AUC": 0.89,
+      "Confusion Matrix": [
+        [
+          69,
+          16
+        ],
+        [
+          15,
+          60
+        ]
+      ]
+    },
+    {
+      "Model": "Decision Tree",
+      "Accuracy": 0.775,
+      "Precision": 0.7746,
+      "Recall": 0.7333,
+      "F1-Score": 0.7534,
+      "ROC-AUC": 0.7725,
+      "Confusion Matrix": [
+        [
+          69,
+          16
+        ],
+        [
+          20,
+          55
+        ]
+      ]
+    },
+    {
+      "Model": "K-Nearest Neighbors",
+      "Accuracy": 0.65,
+      "Precision": 0.6557,
+      "Recall": 0.5333,
+      "F1-Score": 0.5882,
+      "ROC-AUC": 0.6789,
+      "Confusion Matrix": [
+        [
+          64,
+          21
+        ],
+        [
+          35,
+          40
+        ]
+      ]
+    },
+    {
+      "Model": "Logistic Regression",
+      "Accuracy": 0.7812,
+      "Precision": 0.7857,
+      "Recall": 0.7333,
+      "F1-Score": 0.7586,
+      "ROC-AUC": 0.8295,
+      "Confusion Matrix": [
+        [
+          70,
+          15
+        ],
+        [
+          20,
+          55
+        ]
+      ]
+    }
+  ]
+}

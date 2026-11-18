@@ -1,0 +1,17 @@
+Dataset Information
+===================
+File: engine_data.csv
+Target Column: Engine Condition (0 = Normal, 1 = Faulty / Maintenance Required)
+Features:
+1. Engine rpm
+2. Lub oil pressure
+3. Fuel pressure
+4. Coolant pressure
+5. lub oil temp
+6. Coolant temp
+
+Note: A ready-to-run sample dataset is bundled in this archive so you can train
+and test the application immediately. To train on the full 19,535-record Engine
+Predictive Maintenance Dataset, replace data/engine_data.csv with the full CSV
+file (keeping the same 7 columns) and run:
+    python src/train.py
